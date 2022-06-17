@@ -14,3 +14,4 @@ while count < 3:
     count += 1
 else:
     print("You tried")
+print("Random number is ", random_number)
