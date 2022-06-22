@@ -17,11 +17,11 @@
 # eos_list = [j ** 2 if j % 2 == 0 else j for j in range(1, 11)]
 #
 # print(eos_list)
-#
-# names = ["Ade"], ["Wills"]
-# # Sum = [int(input("Enter a score :")) for i in range(1, 10)]
+
+names = "Ade"
+Sum = [int(input(f"Enter {names}'s score :")) for i in range(1, 5)]
 # total = sum(int(input("Enter score :")) for i in range(1, 10))
-# # print(Sum)
+print(Sum)
 # print(total)
 
 
@@ -36,13 +36,20 @@ def is_prime(num: int) -> bool:
     return True
 
 
-print(is_prime(7))
+# print(is_prime(7))
+#
+#
+# def cube(num: int) -> int:
+#     return num ** 3
+#
+#
+# cubes = [cube(i) for i in range(1, 11)]
+#
+# print(cubes)
 
-
-def cube(num: int) -> int:
-    return num ** 3
-
-
-cubes = [cube(i) for i in range(1, 11)]
-
-print(cubes)
+pints = (i for i in range(1, 10) if is_prime(i))
+print(type(pints))
+# dict methods
+pints_l = {k: v for k, v in enumerate(range(1, 10)) if is_prime(v)}
+print(type(pints_l))
+print(pints_l)

@@ -21,3 +21,9 @@ print(numbers)
 # ['A', 'i', 'n', 'a', 'W', 'I', 'l', 'l', 'i', 'a', 'm', 's']
 # >>> words[0:6]
 # 'AinaWI'
+
+#
+# List is a collection which is ordered and changeable. Allows duplicate members.
+# Tuple is a collection which is ordered and unchangeable. Allows duplicate members.
+# Set is a collection which is unordered, unchangeable*, and unindexed. No duplicate members.
+# Dictionary is a collection which is ordered** and changeable. No duplicate members.

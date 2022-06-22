@@ -18,9 +18,9 @@ print(multiplied_list)
 # b_list[2][0] = 10
 #
 # print(b_list)
-#
-# # tupleMEhod
-# print()
-# t = (1, 2, [3, 4])
-# t[2].append(6)
-# print(t)
+
+# tupleMEhod
+print()
+t = (1, 2, [3, 4])
+t[2].append(6)
+print(t)
