@@ -1,6 +1,6 @@
-
-
 def histogram(word: str) -> dict[str, int]:
+    import string
+
     abc = string.ascii_lowercase
     map_ = {}
     for char in abc:
