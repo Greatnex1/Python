@@ -20,6 +20,9 @@ class Cat(Animal):
 
 cat = Cat("See", "German", "White")
 print(cat.name)
+print(cat.name)
 print(cat.color)
 
+# c = Cat(*vars(cat))
+print(vars(cat))
 print(cat.speak())
