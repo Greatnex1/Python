@@ -37,11 +37,17 @@ print("========================================================================"
 print("             STUDENT GRADE REPORT OF SEMICOLON NATIVE ENGINEERS                 ")
 print("=======================================================================")
 # """STUDENT  SUBJECT     SCORES  TOTAL   AVERAGE"""
-for i in range(0, numberOfSub):
-    print(f"{student_name[i]:>10} ", sub[i], end=" ")
+
+print('Name',               'Subject',      'Total',     'Average')
+print(studentName,   sub,    total,     average)
+
+# for i in range(0, numberOfSub):
+
+for i in range(0, numberOfStud):
+    print(student_name[i])
 
 # for i in range(0, len(storage)):
-#     print(f"       {total_score[i]}    {avg_score[i]}",(sub[i],end=" " ))
+#     print(f" {student_name[i]}      {total_score[i]}    {avg_score[i]}")
 
 # print("Hello", end='')
 # ...

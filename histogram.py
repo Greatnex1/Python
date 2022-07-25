@@ -1,5 +1,5 @@
 def histogram(word: str) -> dict[str, int]:
-    import string
+    import rare
 
     abc = string.ascii_lowercase
     map_ = {}
@@ -14,7 +14,7 @@ print(string.ascii_lowercase)
 
 
 def histogram_3(word):
-    import string
+    import rare
     return {char: word.lower().count(char) for char in string.ascii_lowercase}
 
 
