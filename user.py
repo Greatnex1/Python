@@ -1,6 +1,6 @@
 import json
 from pathlib import Path
-from utilis import validate_password, hash_password
+from bb_uty import validate_password, hash_password
 from typing import NewType, List, Dict, Union
 
 User = NewType('user', Dict[str, Union[str, int]])
