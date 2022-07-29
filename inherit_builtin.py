@@ -6,7 +6,7 @@ class AgeGroup(Enum):
     ADOLESCENT = "teenager"
     ADULT = auto()
 
-#
+
 # print(AgeGroup.ADULT.value)
 
 
